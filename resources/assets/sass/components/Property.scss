@@ -1,0 +1,87 @@
+.Properties {
+	height: 100vh;
+	overflow: scroll;
+}
+
+.Property {
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 20px;
+	border: 1px solid #ddd;
+}
+
+.Property__header {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	z-index: 9999;
+	a {
+		// heart icon
+		color: white;
+		display: block;
+		&:hover {
+			color: white;
+		}
+	}
+}
+
+.Property__gallery {
+	position: relative;
+	img {
+		width: 100%;
+	}
+}
+
+.Property__price {
+    font-size: 22px;
+    color: white;
+    font-weight: 300;
+	bottom: 0;
+	margin: 0;
+	padding-left: 10px;
+    padding: 5px 10px;
+	position: absolute;
+}
+
+.Property__price--for-rent {
+	background: $blue;
+}
+
+.Property__price--for-sale {
+	background: $green;
+}
+
+.Property__agent {
+    position: absolute;
+    bottom: -35px;
+    right: 10px;
+
+    img {
+    	border: 2px solid white;
+    }
+}
+
+.Property__content {
+	padding: 0px 20px 10px;
+	ul {
+		list-style: none;
+		padding-left: 0;
+		li {
+			display: inline-block;
+			margin-right: 20px;
+		}
+	}
+}
+
+.Property__name {
+	font-size: 18px !important;
+	text-transform: capitalize !important;
+	margin-bottom: 25px;
+	a {
+		color: #565a5c;		
+		&:hover {
+			color: #565a5c;
+			text-decoration: none;
+		}
+	}
+}

@@ -1,0 +1,27 @@
+
+.City {
+	margin-bottom: 40px;
+	padding-bottom: 40px;
+	border-bottom: 1px solid #ddd;
+}
+
+.City__why-visit {
+	.City__why-visit-title {
+		margin-top: 0;
+	}
+}
+
+.City__available-in {
+	margin-top: 30px;
+
+	.btn {
+		font-weight: 300;
+		padding: 10px 50px;
+	}
+}
+
+.City__see-available-places {
+    margin: 20px 0px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #ddd;
+}

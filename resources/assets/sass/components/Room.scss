@@ -1,0 +1,181 @@
+.Room {
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.Room__header {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	z-index: 9999;
+	a {
+		// heart icon
+		color: white;
+		display: block;
+		&:hover {
+			color: white;
+		}
+	}
+}
+
+.Room__gallery {
+	position: relative;
+}
+
+.Room__price {
+    font-size: 22px;
+    color: white;
+    font-weight: normal;
+	bottom: 20px;
+	padding-left: 10px;
+    padding: 5px 10px;
+	position: absolute;
+	background: rgba(0,0,0,0.5);
+}
+
+.Room__user {
+    position: absolute;
+    bottom: -35px;
+    right: 10px;
+
+    img {
+    	border: 2px solid white;
+    }
+}
+
+.Room__footer {
+	width: 80%;
+	padding: 0px 10px;
+}
+
+.Room__name {
+	font-size: 18px;
+	a {
+		color: #565a5c;		
+		&:hover {
+			color: #565a5c;
+			text-decoration: none;
+		}
+	}
+}
+
+.Room__type {
+	color: #565a5c;
+}
+
+.SingleRoom {
+	.carousel {
+		img {
+			width: 100%;
+		}
+	}
+}
+
+.SingleRoom__user {
+	text-align: center;
+	img {
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 10px;
+	}
+}
+
+.SingleRoom__name {
+	font-size: 24px;
+	color: $grey;
+	font-weight: normal;
+	margin-top: 10px;
+}
+
+.SigleRoom__country {
+	font-size: 13px;
+}
+
+.SingleRoom__includes {
+	margin-top: 30px;
+	p {
+		i.fa, span.glyphicon {
+			display: block;
+			margin-bottom: 10px;
+		}
+	}
+}
+
+.SingleRoom__info {
+	margin-top: 20px;
+}
+
+.SingleRoom__info--each {
+	padding: 20px 0px;
+	border-top: 1px solid #ddd;
+	ul {
+		list-style: none;
+		padding-left: 0px;
+		li {
+			line-height: 30px;
+		}
+	}
+}
+
+.SingleRoom__info--gallery {
+	.row {	
+		div[class^="col-"] {
+			padding-left: 2px;
+			padding-right: 2px;
+			margin-bottom: 4px;
+			img {
+				width: 100%;
+			}
+		}
+		.lastPhoto {
+			// display: flex;
+			// align-items: center;
+			// justify-content: center;
+			// flex-direction: column;
+			img { }
+			.viewPhotos {			
+				top: -70px;
+				position: relative;
+				text-align: center;
+			}
+
+			.viewPhotos__link {
+				color: white;
+				&:hover {
+					color: white;
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+}
+
+.SingleRoom__booking {
+	margin-top: -65px;
+	background: white;
+	position: absolute;
+	form {
+		padding: 20px;
+		border: 1px solid #ddd;
+	}
+}
+
+.SingleRoom__booking--header {
+	color: white;
+	padding: 5px 20px;
+	// margin-top: -64px;
+	background: rgba(0, 0, 0, 0.8);
+	p {
+		margin-bottom: 0;
+	}
+}
+
+.SingleRoom__booking--price {
+	font-size: 24px;
+}
+
+.SingleRoom__booking--perNight {
+	text-align: right;
+	margin-top: 8px;
+}

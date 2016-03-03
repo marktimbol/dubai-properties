@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "devDependencies": {
+    "classnames": "^2.2.3",
+    "gulp": "^3.8.8",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7"
+  },
+  "dependencies": {
+    "laravel-elixir": "^4.0.0",
+    "bootstrap-sass": "^3.0.0"
+  }
+}

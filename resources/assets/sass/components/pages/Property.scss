@@ -1,0 +1,128 @@
+.page {
+	.Property__name {
+		font-size: 36px !important;
+		color: $grey;
+		font-weight: 300;
+		margin-top: 10px;
+		margin-bottom: 15px;
+		span {
+			color: white;
+			font-size: 16px;
+			padding: 10px;
+			top: -6px;
+			position: relative;
+			border-radius: 20px;
+		}
+	}
+
+	.Property__quick-info {
+		padding-left: 0;
+		list-style: none;
+		li {
+			display: inline-block;
+			margin-right: 20px;
+			i {
+				margin-right: 10px;
+			}
+		}
+
+		.Property__quick-info--address {
+			text-transform: capitalize;
+		}
+	}
+
+	.Property__gallery-container {
+		padding: 40px 0px;
+	}
+
+	.Property__agent-box {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background: #222126;
+	}
+
+	.Property__agent {
+		text-align: center;
+	    right: 0;
+	    bottom: 0;
+		position: relative;
+		img {
+			display: block;
+			margin: 0 auto;
+			margin-bottom: 20px;
+		}
+		p {
+			color: white;
+			a {
+				color: white;
+			}
+		}
+	}
+
+	.Property__description {
+		h2 {
+			font-weight: 300;
+			margin: 40px 0px 40px;
+		}
+	}
+
+	.Property__features {
+		h2 {
+			margin: 80px 0px 40px;
+		}
+		ul {
+			list-style: none;
+			padding-left: 0px;
+			li {
+				line-height: 30px;
+			}
+		}
+	}
+
+	.Property__map {
+		h2 {
+			margin: 80px 0px 40px;
+		}
+		#map {		
+			width: 100%;
+			height: 600px !important;
+		}
+	}
+
+	.Property__gallery--grid {
+		h2 {
+			margin: 80px 0px 40px;
+		}
+		.row {	
+			div[class^="col-"] {
+				padding-left: 2px;
+				padding-right: 2px;
+				margin-bottom: 4px;
+				img {
+					width: 100%;
+				}
+			}
+			.lastPhoto {
+				// display: flex;
+				// align-items: center;
+				// justify-content: center;
+				// flex-direction: column;
+				img { }
+				.viewPhotos {			
+					top: -70px;
+					position: relative;
+					text-align: center;
+				}
+
+				.viewPhotos__link {
+					color: white;
+					&:hover {
+						color: white;
+						text-decoration: underline;
+					}
+				}
+			}
+		}
+	}
+}

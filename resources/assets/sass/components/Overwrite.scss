@@ -1,0 +1,78 @@
+.carousel-control.right {
+	background-image: none !important;
+}
+.carousel-control.left {
+	background-image: none !important;
+}
+
+.btn {
+	border-radius: 3px !important;
+}
+
+.btn-primary {
+	border: 1px solid $blue;
+	background: $blue;
+}
+
+.btn-success {
+	border: 1px solid $green;
+	background: $green;
+}
+
+.form-control {
+	border-radius: 2px;
+}
+
+.list-group-item:first-child {
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+.list-group-item:last-child {
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.ui-datepicker {
+	&.ui-corner-all {
+		border-radius: 2px !important;
+	}
+
+	.ui-widget-header {
+		border: none;
+		background: none;
+		.ui-datepicker-title {
+			font-size: 14px;
+			font-weight: normal;
+		}
+	}
+
+	.ui-datepicker-calendar {
+		th {
+			font-size: 12px;
+			font-weight: normal;
+		}
+	}
+
+	td {
+		border: 0 !important;
+		padding: 0px !important;
+		span, a {
+			padding: .4em .2em !important;
+			text-align: center !important;
+		}
+	}
+
+	.ui-state-default,
+	.ui-widget-content .ui-state-default, 
+	.ui-widget-header .ui-state-default {
+		border: none !important;
+		background: none !important;
+	}
+
+	.ui-state-disabled {
+		.ui-state-default {
+			background: #AAA !important;
+		}
+	}
+}

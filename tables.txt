@@ -1,0 +1,32 @@
+Tables
+
+User
+	name
+	email
+	password
+	phone
+
+Properties
+	user_id
+	to			//buy or sell
+	type
+	name
+	price
+	bedrooms
+	bathrooms
+	area
+	description
+	furnish
+	emirate
+	city
+	sublocation
+
+
+
+
+
+
+
+
+
+
